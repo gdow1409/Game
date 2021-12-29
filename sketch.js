@@ -1,4 +1,4 @@
-var Playerimg,Coinimg,Hammerimg, Heartimg, Stoneimg, player, coin, hammer, heart, stone, Backgroundimg,dummy;
+var Playerimg,Coinimg,Hammerimg, Heartimg, Stoneimg, player, coin, hammer, heart, stone, Backgroundimg,dummy,playerimg2;
 var stoneGroup, standGroup
 var score = 0 
 var speed = 0
