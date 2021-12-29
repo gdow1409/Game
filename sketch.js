@@ -1,4 +1,4 @@
-var Playerimg,Coinimg,Hammerimg, Heartimg, Stoneimg, player, coin, hammer, heart, stone, Backgroundimg,dummy,playerimg2;
+var Playerimg,Coinimg,Hammerimg, Heartimg, Stoneimg, player, coin, hammer, heart, stone, Backgroundimg,dummy,Playerimg2;
 var stoneGroup, standGroup
 var score = 0 
 var speed = 0
@@ -7,7 +7,7 @@ var speed = 0
 function preload()
 {
 Playerimg = loadImage("right.png")
-playerimg2 = loadImage("left.png")
+Playerimg2 = loadImage("left.png")
 Coinimg = loadImage("coin.png")
 Hammerimg = loadImage("hammer.png")
 Heartimg = loadImage("Heart.png")
@@ -69,7 +69,7 @@ function draw() {
   }
   if (keyDown(LEFT_ARROW)) {
     player.x = player.x - 20
-    player.addImage(playerimg2)
+    player.addImage(Playerimg2)
   }
  player.velocityY = player.velocityY + 0.1
             
